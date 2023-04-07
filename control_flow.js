@@ -21,6 +21,18 @@ numbers.forEach(arrays)
 
 //3Write a function that takes in an array of numbers and consoles the first four items multiplied by 8 and the last two added by 5. 
 //Console the array with the new values
+let arraysNum2=[20,10,30,40];
+nums2(arraysNum2);
+function nums2(arraysNums2){
+    i=0;
+    while(i<arraysNums2.length){
+        if(i===4){
+            break; 
+    }
+    console.log(nums2[0,4]);
+    i++;
+    }
+}
 
 //4Write a function that takes in the following array 
 //and use a while loop to iterate and break when the item is equal to the fourth index
